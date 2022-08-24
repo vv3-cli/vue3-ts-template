@@ -3,7 +3,7 @@
 一个 Vue3 + TS + Vite3.0 + Axios + VueRouter 项目模板。
 
 
-## 有点用的小特性
+## 功能
 
 1. 这个是 **Vue3.2**的模板
 2. **Vite** 配置完成可以直接使用
@@ -64,9 +64,9 @@ npm run lint
 1. 项目环境
 
 - [本地](./build/.env.dev.local)
-- [测试](./build/env.development)
-- [预发布](./build/env.staging)
-- [正式](./build/env.production)
+- [测试](./build/.env.development)
+- [预发布](./build/.env.staging)
+- [正式](./build/.env.production)
 
 ```bash
 VITE_APP_ENV # 项目环境  local test  stag prod
@@ -132,7 +132,7 @@ const env = loadEnv(mode, resolve(__dirname, "build"));
 - chore: 依赖更新/脚手架配置修改等
 - ci: 持续集成
 
-## 🍚License
+## License
 
 vue3--ts-template is open source software licensed as [MIT](./LICENSE)
 
